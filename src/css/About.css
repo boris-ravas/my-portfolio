@@ -1,0 +1,48 @@
+.about {
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.about__image {
+  display: flex;
+  flex: 0.25;
+  padding: 0px 20px;
+}
+
+.about__image > img {
+  max-width: 120px;
+  max-height: 120px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.about__main {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+}
+
+.about__me > h2,
+.about__contact > h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 12px;
+  font: 22px;
+}
+
+.about__me > p {
+  line-height: 30px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 30px;
+}
+
+.about__contact > p {
+  color: rgb(122, 122, 122);
+  margin-bottom: 10px;
+}

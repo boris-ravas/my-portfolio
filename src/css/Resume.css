@@ -1,0 +1,132 @@
+.resume {
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.resume__row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  padding-bottom: 24px;
+  width: 96%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.resume__rowLeftSide {
+  flex: 0.25;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  padding-top: 9px;
+}
+
+.resume__rowRightSide {
+  flex: 0.75;
+  padding: 0px 20px;
+}
+
+.resume__title {
+  letter-spacing: 1px;
+}
+
+.resume__title > span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+
+.resume__heading {
+  font-size: 25px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.resume__work,
+.resume__education {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.resume__text {
+  margin: 0px 0px 30px;
+  color: rgb(131, 140, 149);
+}
+
+.resume__text > i {
+  font-size: 18px;
+}
+
+.resume__skills {
+  padding-right: 10%;
+}
+
+.resume__skill {
+  margin-bottom: 25px;
+}
+
+.resume__skillName {
+  color: rgb(49, 49, 49);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.resume__skillIndicator {
+  width: 100%;
+  height: 42px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 3px;
+}
+
+.resume__skillIndicator > .resume__skillProgress {
+  height: 100%;
+  background-color: rgb(49, 49, 49);
+  border-radius: 3px 0px 0px 3px;
+}
+
+.resume__skillProgress[width="20%"] {
+  width: 20%;
+}
+
+.resume__skillProgress[width="30%"] {
+  width: 30%;
+}
+
+.resume__skillProgress[width="40%"] {
+  width: 40%;
+}
+
+.resume__skillProgress[width="60%"] {
+  width: 60%;
+}
+
+.resume__skillProgress[width="80%"] {
+  width: 80%;
+}
+.resume__skillProgress[width="100%"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .resume__row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .resume__rowLeftSide {
+    flex: 1;
+    text-align: center;
+  }
+
+  .resume__rowRightSide {
+    flex: 1;
+    text-align: center;
+  }
+
+  .resume__skills {
+    padding-right: 0px;
+  }
+}
