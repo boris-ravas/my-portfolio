@@ -14,8 +14,8 @@ function About() {
           <div className="about__me">
             <h2>About Me</h2>
             <p>
-              My name is Boris, fresh absolvent of university, who is currently
-              looking for React job in Brno.
+              My name is Boris, a recent university graduate who is currently
+              looking for a React job in Brno.
             </p>
           </div>
           <div className="about__contact">
