@@ -3,6 +3,7 @@ import "../css/Portfolio.css";
 import amazonCloneImage from "../images/portfolio/amazon-clone.jpg";
 import netlixCloneImage from "../images/portfolio/netflix-clone.jpg";
 import moviesAppImage from "../images/portfolio/movies-app.jpg";
+import tunesAppImage from "../images/portfolio/react-tunes.jpg";
 
 const portfolioItems = [
   {
@@ -19,6 +20,11 @@ const portfolioItems = [
     title: "React Movies App",
     link: "https://eloquent-curran-396f3e.netlify.app/",
     image: moviesAppImage,
+  },
+  {
+    title: "React Tunes App",
+    link: "https://mystifying-fermat-17715f.netlify.app",
+    image: tunesAppImage,
   },
 ];
 
