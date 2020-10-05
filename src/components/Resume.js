@@ -4,14 +4,14 @@ import "../css/Resume.css";
 const skills = [
   { name: "JavaScript", width: "60%" },
   { name: "React", width: "60%" },
-  { name: "Vue.js", width: "20%" },
+  { name: "Vue.js", width: "40%" },
   { name: "Express.js", width: "30%" },
-  { name: "TypeScript", width: "30%" },
+  { name: "TypeScript", width: "40%" },
   { name: "CSS", width: "60%" },
   { name: "HTML", width: "60%" },
   { name: "MongoDB", width: "30%" },
   { name: "SQL", width: "30%" },
-  { name: "GIT", width: "30%" },
+  { name: "GIT", width: "40%" },
   { name: "Adobe Photoshop", width: "40%" },
 ];
 
